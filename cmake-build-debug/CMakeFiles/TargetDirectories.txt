@@ -1,0 +1,4 @@
+/home/andreea/Desktop/OOP/Lab5-12/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/andreea/Desktop/OOP/Lab5-12/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/andreea/Desktop/OOP/Lab5-12/cmake-build-debug/CMakeFiles/Lab5_12.dir
+/home/andreea/Desktop/OOP/Lab5-12/cmake-build-debug/CMakeFiles/Lab5_12_autogen.dir
