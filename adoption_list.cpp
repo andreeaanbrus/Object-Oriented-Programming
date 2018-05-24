@@ -19,7 +19,7 @@ const Dog & AdoptionList::getCurrentDog(int pos) {
 void AdoptionList::next() {
     if(this->list.empty())
         return;
-    this ->current++;
+    this -> current++;
     Dog d = getCurrentDog(current);
     d.play();
 }

@@ -97,6 +97,9 @@ void Controller::addToList(const Dog &d) {
     /*
      * Add a dog to the adoption list
      * */
+    for(auto &i: list->getList())
+        if(d == i)
+            throw "The dog is already in the list!";
     list->add(d);
 
 }

@@ -12,7 +12,7 @@
 class AdoptionList {
 private:
     std::vector<Dog> list;
-    int current;
+    int current = 0;
 public:
     void add(const Dog& d);
     bool isEmpty();

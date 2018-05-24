@@ -1,7 +1,2 @@
-Golden Retriever,Goldie,2,https://media.realitatea.net/multimedia/image/201708/w728/goldenul_64036000.jpg
-Great Dane,Scooby Doo,2,https://i.ebayimg.com/images/g/pq4AAOxySoJTSWFV/s-l300.jpg
-Poodle,Blacky,5,https://www.askideas.com/media/18/Black-Poodle-Puppy-Sitting.jpg
-Pug,Dory,3,https://www.pets4homes.co.uk/images/breeds/13/large/3918021b2f92bd036598a095fb7e45de.jpg
-Akita,Hachiko,4,https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Akita_Inu_dog.jpg/1200px-Akita_Inu_dog.jpg
-Collie,Lessie,0,http://vignette2.wikia.nocookie.net/nonciclopedia/images/4/4e/Lassie.jpg/revision/latest?cb=20140628122835
-Great Dane,Scooby Doo,2,https://i.ebayimg.com/images/g/pq4AAOxySoJTSWFV/s-l300.jpg
+German Shepherdfdsfs,Toby,4,https://i.ytimg.com/vi/VspsY2DaJFk/maxresdefault.jpg
+fsdrsd,dsa,4,https://i.ytimg.com/vi/VspsY2DaJFk/maxresdefault.jpg

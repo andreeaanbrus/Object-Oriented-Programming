@@ -37,8 +37,34 @@ QtWidgets/QLabel
 -
 QtWidgets/QLineEdit
 -
+QApplication
+-
+iostream
+-
+QtCore/QMutex
+-
+QtCore/QEventLoop
+-
+QtWidgets/QDialog
+-
+QtWidgets/QMessageBox
+-
+QtCore/QThread
+-
+QDebug
+-
+QtWidgets/QErrorMessage
+-
+QtWidgets/QAction
+-
 MyGui.h
 /home/andreea/Desktop/OOP/Lab5-12/MyGui.h
+HTMLAdoptionList.h
+/home/andreea/Desktop/OOP/Lab5-12/HTMLAdoptionList.h
+CSV_adoption_list.h
+/home/andreea/Desktop/OOP/Lab5-12/CSV_adoption_list.h
+dog_validator.h
+/home/andreea/Desktop/OOP/Lab5-12/dog_validator.h
 
 /home/andreea/Desktop/OOP/Lab5-12/MyGui.h
 QtWidgets/QWidget
@@ -52,6 +78,10 @@ QtWidgets/QLabel
 QtWidgets/QPlainTextEdit
 -
 QtWidgets/QTextBrowser
+-
+QtWidgets/QDialog
+-
+QtWidgets/QComboBox
 -
 controller.h
 /home/andreea/Desktop/OOP/Lab5-12/controller.h
@@ -72,7 +102,17 @@ vector
 domain.h
 /home/andreea/Desktop/OOP/Lab5-12/domain.h
 
+/home/andreea/Desktop/OOP/Lab5-12/cmake-build-debug/Lab5_12_autogen/EWIEGA46WW/moc_MyGui.cpp
+../../../MyGui.h
+/home/andreea/Desktop/OOP/Lab5-12/MyGui.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
 /home/andreea/Desktop/OOP/Lab5-12/cmake-build-debug/Lab5_12_autogen/mocs_compilation.cpp
+EWIEGA46WW/moc_MyGui.cpp
+/home/andreea/Desktop/OOP/Lab5-12/cmake-build-debug/Lab5_12_autogen/EWIEGA46WW/moc_MyGui.cpp
 
 /home/andreea/Desktop/OOP/Lab5-12/controller.cpp
 iostream
@@ -165,6 +205,8 @@ CSV_adoption_list.h
 /home/andreea/Desktop/OOP/Lab5-12/CSV_adoption_list.h
 MyGui.h
 /home/andreea/Desktop/OOP/Lab5-12/MyGui.h
+dog_validator.h
+/home/andreea/Desktop/OOP/Lab5-12/dog_validator.h
 
 /home/andreea/Desktop/OOP/Lab5-12/repository.cpp
 fstream
@@ -211,6 +253,22 @@ string
 -
 vector
 -
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug
+qdebug.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QEventLoop
+qeventloop.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QMutex
+qmutex.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmutex.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QThread
+qthread.h
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qabstractitemmodel.h
 QtCore/qvariant.h
@@ -834,6 +892,12 @@ QtCore/qscopedpointer.h
 stdio.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qthread.h
+QtCore/qobject.h
+-
+limits.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h
 QtCore/qtypetraits.h
 -
@@ -1342,9 +1406,25 @@ QtGui/qwindowdefs_win.h
 QtCore/qglobal.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QAction
+qaction.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
 qapplication.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
+qcombobox.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+qdialog.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QErrorMessage
+qerrormessage.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qerrormessage.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 qboxlayout.h
@@ -1361,6 +1441,10 @@ qlineedit.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QListWidget
 qlistwidget.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlistwidget.h
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
+qmessagebox.h
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPlainTextEdit
 qplaintextedit.h
@@ -1416,6 +1500,24 @@ QtWidgets/qwidget.h
 QtGui/qvalidator.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
+QtGui/qkeysequence.h
+-
+QtCore/qstring.h
+-
+QtWidgets/qwidget.h
+-
+QtCore/qvariant.h
+-
+QtGui/qicon.h
+-
+QtWidgets/qactiongroup.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h
+QtWidgets/qaction.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
 QtCore/qcoreapplication.h
 -
@@ -1440,8 +1542,26 @@ QtWidgets/qwidget.h
 limits.h
 -
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qcombobox.h
+QtWidgets/qwidget.h
+-
+QtWidgets/qabstractitemdelegate.h
+-
+QtCore/qabstractitemmodel.h
+-
+QtCore/qvariant.h
+-
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
 QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+QtWidgets/qwidget.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qerrormessage.h
+QtWidgets/qdialog.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
@@ -1508,6 +1628,10 @@ QtCore/qvariant.h
 QtCore/qvector.h
 -
 QtCore/qitemselectionmodel.h
+-
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmessagebox.h
+QtWidgets/qdialog.h
 -
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qplaintextedit.h
